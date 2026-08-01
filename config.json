@@ -1,0 +1,16 @@
+{
+  "name": "awesome-agent-memory",
+  "title": "Awesome Agent Memory",
+  "tagline": "A vendor-neutral directory of frameworks, stores, benchmarks, and papers for AI agent memory.",
+  "siteHost": "agent-memory.agentpostmortem.com",
+  "ghUrl": "https://github.com/royalpinto007/awesome-agent-memory",
+  "cats": {
+    "frameworks": "Memory frameworks and libraries",
+    "native": "Framework-native memory",
+    "stores": "Vector and graph memory stores",
+    "benchmarks": "Benchmarks and evals",
+    "papers": "Papers and surveys",
+    "managed": "Managed memory services",
+    "learning": "Learning resources"
+  }
+}
