@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Awesome Agent Memory</title>
+<meta name="description" content="A vendor-neutral directory of frameworks, stores, benchmarks, and papers for AI agent memory." />
+<style>
+  :root{ --bg:#0b0d10; --panel:#14181d; --panel2:#1b2027; --bd:#262d36; --tx:#e6edf3; --mut:#9aa7b4; --acc:#6ee7b7; --acc2:#38bdf8; --chip:#1f2630; }
+  @media (prefers-color-scheme: light){ :root{ --bg:#f7f8fa; --panel:#fff; --panel2:#f0f2f5; --bd:#e2e6eb; --tx:#0d1117; --mut:#586069; --acc:#059669; --acc2:#0284c7; --chip:#eef1f5; } }
+  *{box-sizing:border-box} html,body{overflow-x:hidden;max-width:100%}
+  body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--acc2);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1160px;margin:0 auto;padding:clamp(16px,4vw,30px) clamp(14px,4vw,26px) 60px}
+  header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em} header h1 .g{color:var(--acc)}
+  header p{margin:0;color:var(--mut)}
+  .top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .ghlink{border:1px solid var(--bd);background:var(--panel);padding:7px 12px;border-radius:8px;color:var(--tx);font-weight:600;font-size:.86rem}
+  .controls{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:5;border-bottom:1px solid var(--bd);margin-bottom:16px}
+  #q{width:100%;padding:11px 14px;border:1px solid var(--bd);border-radius:10px;background:var(--panel);color:var(--tx);font-size:1rem;outline:none}
+  #q:focus{border-color:var(--acc2)}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+  .chip{cursor:pointer;border:1px solid var(--bd);background:var(--chip);color:var(--mut);padding:5px 11px;border-radius:999px;font-size:.82rem;user-select:none}
+  .chip.on{background:var(--acc2);border-color:var(--acc2);color:#04121c;font-weight:700}
+  .count{color:var(--mut);font-size:.82rem;margin:6px 2px 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px}
+  .card{border:1px solid var(--bd);background:var(--panel);border-radius:12px;padding:14px 15px;display:flex;flex-direction:column;gap:8px}
+  .card:hover{border-color:var(--acc2)}
+  .card .h{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .card .h a{font-weight:700;font-size:1.02rem;color:var(--tx)}
+  .stars{color:var(--mut);font-size:.8rem;white-space:nowrap}
+  .cat{font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:var(--acc);font-weight:700}
+  .desc{color:var(--mut);font-size:.88rem;margin:0}
+  @media (max-width:520px){.top{flex-direction:column;align-items:flex-start}.card{padding:13px}}
+  footer{margin-top:34px;color:var(--mut);font-size:.82rem;text-align:center}
+  .empty{color:var(--mut);padding:40px 0;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <header><h1>Awesome Agent Memory</h1><p>A vendor-neutral directory of frameworks, stores, benchmarks, and papers for AI agent memory.</p></header>
+    <a class="ghlink" href="https://github.com/royalpinto007/awesome-agent-memory">Star on GitHub</a>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search..." autocomplete="off" />
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No matches. Try another term, or <a href="https://github.com/royalpinto007/awesome-agent-memory#contributing">add it</a>.</div>
+  <footer><span id="updated"></span> &middot; <a href="https://github.com/royalpinto007/awesome-agent-memory">Contribute</a> &middot; built by <a href="https://royalpinto007.agentpostmortem.com">Royal Pinto</a></footer>
+</div>
+<script>
+const DATA = [{"name":"Mem0","url":"https://github.com/mem0ai/mem0","category":"frameworks","desc":"Self-editing memory layer with user/session/agent scopes over a hybrid vector-plus-graph-plus-KV store; strong LoCoMo/LongMemEval scores.","repo":"mem0ai/mem0","stars":62234},{"name":"Letta (formerly MemGPT)","url":"https://github.com/letta-ai/letta","category":"frameworks","desc":"OS-inspired agent runtime where the agent self-manages tiered memory (main context as RAM, archival as disk) via memory tools and a REST API.","repo":"letta-ai/letta","stars":24046},{"name":"Zep","url":"https://github.com/getzep/zep","category":"frameworks","desc":"Memory server for agents built on a temporal knowledge graph that tracks fact-validity windows; strong on temporal queries.","repo":"getzep/zep","stars":4798},{"name":"Graphiti","url":"https://github.com/getzep/graphiti","category":"frameworks","desc":"Zep's framework for building real-time, temporally-aware knowledge graphs for agent memory.","repo":"getzep/graphiti","stars":29412},{"name":"Cognee","url":"https://github.com/topoteretes/cognee","category":"frameworks","desc":"Turns ingested data into a reasoning knowledge graph so memory improves from corrections; graph-first.","repo":"topoteretes/cognee","stars":29642},{"name":"Memary","url":"https://github.com/kingjulio8238/Memary","category":"frameworks","desc":"Open-source memory layer for autonomous agents that emulates how human memory evolves over time.","repo":"kingjulio8238/Memary","stars":2637},{"name":"Memobase","url":"https://github.com/memodb-io/memobase","category":"frameworks","desc":"User-profile-based long-term memory for chatbot and agent apps with time-aware user event timelines.","repo":"memodb-io/memobase","stars":2811},{"name":"Memoripy","url":"https://github.com/caspianmoon/memoripy","category":"frameworks","desc":"Python memory layer with short/long-term storage, semantic clustering, decay/reinforcement, and graph associations.","repo":"caspianmoon/memoripy","stars":693},{"name":"LangMem","url":"https://github.com/langchain-ai/langmem","category":"frameworks","desc":"LangChain's memory primitives for storing, recalling, and managing agent state within LangGraph workflows.","repo":"langchain-ai/langmem","stars":1589},{"name":"MemoryScope","url":"https://github.com/modelscope/MemoryScope","category":"frameworks","desc":"ModelScope's long-term memory library for LLM chatbots with hierarchical, time-aware memory operations.","repo":"modelscope/MemoryScope","stars":3242},{"name":"Memori","url":"https://github.com/MemoriLabs/Memori","category":"frameworks","desc":"LLM-agnostic, agent-native memory that turns agent execution into structured persistent state; enterprise/on-prem focus.","repo":"MemoriLabs/Memori","stars":15675},{"name":"MemoRAG","url":"https://github.com/qhjqhj00/MemoRAG","category":"frameworks","desc":"RAG framework built on a long-memory model as a global data interface, targeting 1M-plus token tasks.","repo":"qhjqhj00/MemoRAG","stars":2261},{"name":"A-Mem","url":"https://github.com/WujiangXu/A-mem-sys","category":"frameworks","desc":"Zettelkasten-inspired agentic memory that links structured knowledge notes for dynamic consolidation.","repo":"WujiangXu/A-mem-sys","stars":376},{"name":"memonto","url":"https://github.com/shihanwan/memonto","category":"frameworks","desc":"Ontology-driven memory library that structures agent memory around a user-defined schema.","repo":"shihanwan/memonto","stars":99},{"name":"txtai","url":"https://github.com/neuml/txtai","category":"frameworks","desc":"All-in-one embeddings database for semantic search, LLM orchestration, and memory-style retrieval.","repo":"neuml/txtai","stars":12771},{"name":"LlamaIndex Memory","url":"https://github.com/run-llama/llama_index","category":"native","desc":"Data framework with built-in chat memory buffers, vector memory, and composable memory modules for agents.","repo":"run-llama/llama_index","stars":51264},{"name":"LangChain / LangGraph Memory","url":"https://github.com/langchain-ai/langchain","category":"native","desc":"Widely used agent framework providing conversation buffers, summary memory, and state persistence/checkpointing.","repo":"langchain-ai/langchain","stars":143141},{"name":"Haystack","url":"https://github.com/deepset-ai/haystack","category":"native","desc":"Production LLM/RAG framework with memory and retrieval components for agent pipelines.","repo":"deepset-ai/haystack","stars":26073},{"name":"GraphRAG (Microsoft)","url":"https://github.com/microsoft/graphrag","category":"native","desc":"Graph-based RAG that builds a knowledge graph from documents for structured, memory-like retrieval.","repo":"microsoft/graphrag","stars":35136},{"name":"Qdrant","url":"https://github.com/qdrant/qdrant","category":"stores","desc":"High-performance open-source vector database commonly used as the embedding store for agent long-term memory.","repo":"qdrant/qdrant","stars":33700},{"name":"Weaviate","url":"https://github.com/weaviate/weaviate","category":"stores","desc":"Open-source vector database with hybrid search, frequently backing semantic agent memory.","repo":"weaviate/weaviate","stars":16678},{"name":"Milvus","url":"https://github.com/milvus-io/milvus","category":"stores","desc":"Scalable open-source vector database for storing and retrieving embedding-based memories.","repo":"milvus-io/milvus","stars":45443},{"name":"Chroma","url":"https://github.com/chroma-core/chroma","category":"stores","desc":"Developer-friendly embedded vector database popular for prototyping agent memory.","repo":"chroma-core/chroma","stars":28916},{"name":"FAISS","url":"https://github.com/facebookresearch/faiss","category":"stores","desc":"Library for efficient similarity search over dense vectors, a common low-level memory index.","repo":"facebookresearch/faiss","stars":40633},{"name":"Neo4j","url":"https://github.com/neo4j/neo4j","category":"stores","desc":"Leading graph database used for knowledge-graph and relational agent memory.","repo":"neo4j/neo4j","stars":16983},{"name":"FalkorDB","url":"https://github.com/FalkorDB/FalkorDB","category":"stores","desc":"Low-latency graph database designed for GraphRAG and agent knowledge-graph memory.","repo":"FalkorDB/FalkorDB","stars":4859},{"name":"LoCoMo","url":"https://github.com/snap-research/locomo","category":"benchmarks","desc":"Very long-term conversational memory benchmark; 1,540 questions across single-hop, multi-hop, temporal, open-domain.","repo":"snap-research/locomo","stars":1065},{"name":"LongMemEval","url":"https://github.com/xiaowu0162/LongMemEval","category":"benchmarks","desc":"500-question benchmark for chat-assistant long-term interactive memory across six abilities.","repo":"xiaowu0162/LongMemEval","stars":974},{"name":"agentos-bench (BEAM)","url":"https://github.com/framerslab/agentos-bench","category":"benchmarks","desc":"Benchmark harness bundling LongMemEval, LoCoMo, BEAM, plus cognitive-mechanism micro-benchmarks.","repo":"framerslab/agentos-bench","stars":0},{"name":"Mem0 State-of-AI-Memory report","url":"https://mem0.ai/blog/state-of-ai-agent-memory-2026","category":"benchmarks","desc":"Comparative benchmark report scoring memory systems on LoCoMo, LongMemEval, and BEAM with token-cost analysis.","stars":null},{"name":"MemGPT paper","url":"https://arxiv.org/abs/2310.08560","category":"papers","desc":"'MemGPT: Towards LLMs as Operating Systems', the tiered virtual-context memory idea behind Letta.","stars":null},{"name":"LoCoMo paper","url":"https://arxiv.org/abs/2402.17753","category":"papers","desc":"'Evaluating Very Long-Term Conversational Memory of LLM Agents', a foundational conversational-memory benchmark.","stars":null},{"name":"LongMemEval paper","url":"https://arxiv.org/abs/2410.10813","category":"papers","desc":"'Benchmarking Chat Assistants on Long-Term Interactive Memory'.","stars":null},{"name":"Awesome-Memory-for-Agents (papers)","url":"https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents","category":"papers","desc":"Curated academic collection of papers on memory for language agents.","repo":"TsinghuaC3I/Awesome-Memory-for-Agents","stars":621},{"name":"Mem0 Platform","url":"https://mem0.ai/","category":"managed","desc":"Hosted managed memory API and platform (graph features gated behind a paid tier).","stars":null},{"name":"Zep Cloud","url":"https://www.getzep.com/","category":"managed","desc":"Managed temporal-knowledge-graph memory service for agents and assistants.","stars":null},{"name":"Letta Cloud","url":"https://www.letta.com/","category":"managed","desc":"Hosted platform for building and running stateful, self-managing memory agents.","stars":null},{"name":"Cognee Cloud","url":"https://www.cognee.ai/","category":"managed","desc":"Managed offering of the Cognee knowledge-graph memory engine.","stars":null},{"name":"Graphlit","url":"https://graphlit.com/","category":"managed","desc":"Managed knowledge/memory API turning content into a searchable graph for agents.","stars":null},{"name":"Ragie","url":"https://ragie.ai/","category":"managed","desc":"Managed RAG and retrieval-memory-as-a-service for agent applications.","stars":null},{"name":"Agent Memory Techniques (notebooks)","url":"https://github.com/NirDiamant/Agent_Memory_Techniques","category":"learning","desc":"30 runnable notebooks: buffers, vector stores, KGs, episodic/semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo.","repo":"NirDiamant/Agent_Memory_Techniques","stars":826},{"name":"HybridAGI","url":"https://github.com/SynaLinks/HybridAGI","category":"learning","desc":"Neuro-symbolic agent system combining graph-program memory with LLMs.","repo":"SynaLinks/HybridAGI","stars":905}];
+const UPDATED = "2026-08-01";
+const CATS = {"frameworks":"Memory frameworks and libraries","native":"Framework-native memory","stores":"Vector and graph memory stores","benchmarks":"Benchmarks and evals","papers":"Papers and surveys","managed":"Managed memory services","learning":"Learning resources"};
+let active = "all", q = "";
+const chips = document.getElementById("chips");
+[["all","All"], ...Object.entries(CATS)].forEach(([k,label])=>{
+  const c=document.createElement("span"); c.className="chip"+(k==="all"?" on":""); c.textContent=label; c.dataset.k=k;
+  c.onclick=()=>{active=k;[...chips.children].forEach(x=>x.classList.toggle("on",x.dataset.k===k));render();};
+  chips.appendChild(c);
+});
+const qi=document.getElementById("q"); qi.oninput=()=>{q=qi.value.trim().toLowerCase();render();};
+function kfmt(n){return n==null?"":n>=1000?(n/1000).toFixed(1).replace(/\.0$/,"")+"k":""+n;}
+function render(){
+  const grid=document.getElementById("grid"); grid.innerHTML="";
+  const rows=DATA.filter(t=>{
+    if(active!=="all"&&t.category!==active) return false;
+    if(!q) return true;
+    return (t.name+" "+t.desc+" "+t.category).toLowerCase().includes(q);
+  }).sort((a,b)=>(b.stars||0)-(a.stars||0));
+  document.getElementById("count").textContent=rows.length+" of "+DATA.length+" shown";
+  document.getElementById("empty").hidden=rows.length>0;
+  for(const t of rows){
+    const el=document.createElement("div"); el.className="card";
+    el.innerHTML='<div class="cat">'+(CATS[t.category]||t.category)+'</div>'+
+      '<div class="h"><a href="'+t.url+'" target="_blank" rel="noopener">'+t.name+'</a>'+
+      (t.stars!=null?'<span class="stars">* '+kfmt(t.stars)+'</span>':'')+'</div>'+
+      '<p class="desc">'+t.desc+'</p>';
+    grid.appendChild(el);
+  }
+}
+document.getElementById("updated").textContent = UPDATED ? ("Star counts updated "+UPDATED) : "Community-curated";
+render();
+</script>
+</body>
+</html>
