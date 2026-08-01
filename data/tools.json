@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "category": "frameworks",
+    "desc": "Self-editing memory layer with user/session/agent scopes over a hybrid vector-plus-graph-plus-KV store; strong LoCoMo/LongMemEval scores.",
+    "repo": "mem0ai/mem0"
+  },
+  {
+    "name": "Letta (formerly MemGPT)",
+    "url": "https://github.com/letta-ai/letta",
+    "category": "frameworks",
+    "desc": "OS-inspired agent runtime where the agent self-manages tiered memory (main context as RAM, archival as disk) via memory tools and a REST API.",
+    "repo": "letta-ai/letta"
+  },
+  {
+    "name": "Zep",
+    "url": "https://github.com/getzep/zep",
+    "category": "frameworks",
+    "desc": "Memory server for agents built on a temporal knowledge graph that tracks fact-validity windows; strong on temporal queries.",
+    "repo": "getzep/zep"
+  },
+  {
+    "name": "Graphiti",
+    "url": "https://github.com/getzep/graphiti",
+    "category": "frameworks",
+    "desc": "Zep's framework for building real-time, temporally-aware knowledge graphs for agent memory.",
+    "repo": "getzep/graphiti"
+  },
+  {
+    "name": "Cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "category": "frameworks",
+    "desc": "Turns ingested data into a reasoning knowledge graph so memory improves from corrections; graph-first.",
+    "repo": "topoteretes/cognee"
+  },
+  {
+    "name": "Memary",
+    "url": "https://github.com/kingjulio8238/Memary",
+    "category": "frameworks",
+    "desc": "Open-source memory layer for autonomous agents that emulates how human memory evolves over time.",
+    "repo": "kingjulio8238/Memary"
+  },
+  {
+    "name": "Memobase",
+    "url": "https://github.com/memodb-io/memobase",
+    "category": "frameworks",
+    "desc": "User-profile-based long-term memory for chatbot and agent apps with time-aware user event timelines.",
+    "repo": "memodb-io/memobase"
+  },
+  {
+    "name": "Memoripy",
+    "url": "https://github.com/caspianmoon/memoripy",
+    "category": "frameworks",
+    "desc": "Python memory layer with short/long-term storage, semantic clustering, decay/reinforcement, and graph associations.",
+    "repo": "caspianmoon/memoripy"
+  },
+  {
+    "name": "LangMem",
+    "url": "https://github.com/langchain-ai/langmem",
+    "category": "frameworks",
+    "desc": "LangChain's memory primitives for storing, recalling, and managing agent state within LangGraph workflows.",
+    "repo": "langchain-ai/langmem"
+  },
+  {
+    "name": "MemoryScope",
+    "url": "https://github.com/modelscope/MemoryScope",
+    "category": "frameworks",
+    "desc": "ModelScope's long-term memory library for LLM chatbots with hierarchical, time-aware memory operations.",
+    "repo": "modelscope/MemoryScope"
+  },
+  {
+    "name": "Memori",
+    "url": "https://github.com/MemoriLabs/Memori",
+    "category": "frameworks",
+    "desc": "LLM-agnostic, agent-native memory that turns agent execution into structured persistent state; enterprise/on-prem focus.",
+    "repo": "MemoriLabs/Memori"
+  },
+  {
+    "name": "MemoRAG",
+    "url": "https://github.com/qhjqhj00/MemoRAG",
+    "category": "frameworks",
+    "desc": "RAG framework built on a long-memory model as a global data interface, targeting 1M-plus token tasks.",
+    "repo": "qhjqhj00/MemoRAG"
+  },
+  {
+    "name": "A-Mem",
+    "url": "https://github.com/WujiangXu/A-mem-sys",
+    "category": "frameworks",
+    "desc": "Zettelkasten-inspired agentic memory that links structured knowledge notes for dynamic consolidation.",
+    "repo": "WujiangXu/A-mem-sys"
+  },
+  {
+    "name": "memonto",
+    "url": "https://github.com/shihanwan/memonto",
+    "category": "frameworks",
+    "desc": "Ontology-driven memory library that structures agent memory around a user-defined schema.",
+    "repo": "shihanwan/memonto"
+  },
+  {
+    "name": "txtai",
+    "url": "https://github.com/neuml/txtai",
+    "category": "frameworks",
+    "desc": "All-in-one embeddings database for semantic search, LLM orchestration, and memory-style retrieval.",
+    "repo": "neuml/txtai"
+  },
+  {
+    "name": "LlamaIndex Memory",
+    "url": "https://github.com/run-llama/llama_index",
+    "category": "native",
+    "desc": "Data framework with built-in chat memory buffers, vector memory, and composable memory modules for agents.",
+    "repo": "run-llama/llama_index"
+  },
+  {
+    "name": "LangChain / LangGraph Memory",
+    "url": "https://github.com/langchain-ai/langchain",
+    "category": "native",
+    "desc": "Widely used agent framework providing conversation buffers, summary memory, and state persistence/checkpointing.",
+    "repo": "langchain-ai/langchain"
+  },
+  {
+    "name": "Haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "category": "native",
+    "desc": "Production LLM/RAG framework with memory and retrieval components for agent pipelines.",
+    "repo": "deepset-ai/haystack"
+  },
+  {
+    "name": "GraphRAG (Microsoft)",
+    "url": "https://github.com/microsoft/graphrag",
+    "category": "native",
+    "desc": "Graph-based RAG that builds a knowledge graph from documents for structured, memory-like retrieval.",
+    "repo": "microsoft/graphrag"
+  },
+  {
+    "name": "Qdrant",
+    "url": "https://github.com/qdrant/qdrant",
+    "category": "stores",
+    "desc": "High-performance open-source vector database commonly used as the embedding store for agent long-term memory.",
+    "repo": "qdrant/qdrant"
+  },
+  {
+    "name": "Weaviate",
+    "url": "https://github.com/weaviate/weaviate",
+    "category": "stores",
+    "desc": "Open-source vector database with hybrid search, frequently backing semantic agent memory.",
+    "repo": "weaviate/weaviate"
+  },
+  {
+    "name": "Milvus",
+    "url": "https://github.com/milvus-io/milvus",
+    "category": "stores",
+    "desc": "Scalable open-source vector database for storing and retrieving embedding-based memories.",
+    "repo": "milvus-io/milvus"
+  },
+  {
+    "name": "Chroma",
+    "url": "https://github.com/chroma-core/chroma",
+    "category": "stores",
+    "desc": "Developer-friendly embedded vector database popular for prototyping agent memory.",
+    "repo": "chroma-core/chroma"
+  },
+  {
+    "name": "FAISS",
+    "url": "https://github.com/facebookresearch/faiss",
+    "category": "stores",
+    "desc": "Library for efficient similarity search over dense vectors, a common low-level memory index.",
+    "repo": "facebookresearch/faiss"
+  },
+  {
+    "name": "Neo4j",
+    "url": "https://github.com/neo4j/neo4j",
+    "category": "stores",
+    "desc": "Leading graph database used for knowledge-graph and relational agent memory.",
+    "repo": "neo4j/neo4j"
+  },
+  {
+    "name": "FalkorDB",
+    "url": "https://github.com/FalkorDB/FalkorDB",
+    "category": "stores",
+    "desc": "Low-latency graph database designed for GraphRAG and agent knowledge-graph memory.",
+    "repo": "FalkorDB/FalkorDB"
+  },
+  {
+    "name": "LoCoMo",
+    "url": "https://github.com/snap-research/locomo",
+    "category": "benchmarks",
+    "desc": "Very long-term conversational memory benchmark; 1,540 questions across single-hop, multi-hop, temporal, open-domain.",
+    "repo": "snap-research/locomo"
+  },
+  {
+    "name": "LongMemEval",
+    "url": "https://github.com/xiaowu0162/LongMemEval",
+    "category": "benchmarks",
+    "desc": "500-question benchmark for chat-assistant long-term interactive memory across six abilities.",
+    "repo": "xiaowu0162/LongMemEval"
+  },
+  {
+    "name": "agentos-bench (BEAM)",
+    "url": "https://github.com/framerslab/agentos-bench",
+    "category": "benchmarks",
+    "desc": "Benchmark harness bundling LongMemEval, LoCoMo, BEAM, plus cognitive-mechanism micro-benchmarks.",
+    "repo": "framerslab/agentos-bench"
+  },
+  {
+    "name": "Mem0 State-of-AI-Memory report",
+    "url": "https://mem0.ai/blog/state-of-ai-agent-memory-2026",
+    "category": "benchmarks",
+    "desc": "Comparative benchmark report scoring memory systems on LoCoMo, LongMemEval, and BEAM with token-cost analysis."
+  },
+  {
+    "name": "MemGPT paper",
+    "url": "https://arxiv.org/abs/2310.08560",
+    "category": "papers",
+    "desc": "'MemGPT: Towards LLMs as Operating Systems', the tiered virtual-context memory idea behind Letta."
+  },
+  {
+    "name": "LoCoMo paper",
+    "url": "https://arxiv.org/abs/2402.17753",
+    "category": "papers",
+    "desc": "'Evaluating Very Long-Term Conversational Memory of LLM Agents', a foundational conversational-memory benchmark."
+  },
+  {
+    "name": "LongMemEval paper",
+    "url": "https://arxiv.org/abs/2410.10813",
+    "category": "papers",
+    "desc": "'Benchmarking Chat Assistants on Long-Term Interactive Memory'."
+  },
+  {
+    "name": "Awesome-Memory-for-Agents (papers)",
+    "url": "https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents",
+    "category": "papers",
+    "desc": "Curated academic collection of papers on memory for language agents.",
+    "repo": "TsinghuaC3I/Awesome-Memory-for-Agents"
+  },
+  {
+    "name": "Mem0 Platform",
+    "url": "https://mem0.ai/",
+    "category": "managed",
+    "desc": "Hosted managed memory API and platform (graph features gated behind a paid tier)."
+  },
+  {
+    "name": "Zep Cloud",
+    "url": "https://www.getzep.com/",
+    "category": "managed",
+    "desc": "Managed temporal-knowledge-graph memory service for agents and assistants."
+  },
+  {
+    "name": "Letta Cloud",
+    "url": "https://www.letta.com/",
+    "category": "managed",
+    "desc": "Hosted platform for building and running stateful, self-managing memory agents."
+  },
+  {
+    "name": "Cognee Cloud",
+    "url": "https://www.cognee.ai/",
+    "category": "managed",
+    "desc": "Managed offering of the Cognee knowledge-graph memory engine."
+  },
+  {
+    "name": "Graphlit",
+    "url": "https://graphlit.com/",
+    "category": "managed",
+    "desc": "Managed knowledge/memory API turning content into a searchable graph for agents."
+  },
+  {
+    "name": "Ragie",
+    "url": "https://ragie.ai/",
+    "category": "managed",
+    "desc": "Managed RAG and retrieval-memory-as-a-service for agent applications."
+  },
+  {
+    "name": "Agent Memory Techniques (notebooks)",
+    "url": "https://github.com/NirDiamant/Agent_Memory_Techniques",
+    "category": "learning",
+    "desc": "30 runnable notebooks: buffers, vector stores, KGs, episodic/semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo.",
+    "repo": "NirDiamant/Agent_Memory_Techniques"
+  },
+  {
+    "name": "HybridAGI",
+    "url": "https://github.com/SynaLinks/HybridAGI",
+    "category": "learning",
+    "desc": "Neuro-symbolic agent system combining graph-program memory with LLMs.",
+    "repo": "SynaLinks/HybridAGI"
+  }
+]
