@@ -234,6 +234,12 @@
     "repo": "TsinghuaC3I/Awesome-Memory-for-Agents"
   },
   {
+    "name": "GoodMem",
+    "url": "https://goodmem.ai/",
+    "category": "managed",
+    "desc": "Governed memory layer for agents with owners, roles, scoped API keys, and retrieval logging; managed cloud or self-hosted, free for commercial use."
+  },
+  {
     "name": "Mem0 Platform",
     "url": "https://mem0.ai/",
     "category": "managed",
