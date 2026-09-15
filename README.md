@@ -21,7 +21,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 **The one rule:** a memory system is only as good as its recall precision under real load. A store that returns the wrong three memories is worse than no memory at all.
 
 <!-- LIST:START -->
-**42 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
+**43 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
 
 ### Memory frameworks and libraries
 
@@ -74,6 +74,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 
 ### Managed memory services
 
+- [GoodMem](https://goodmem.ai/): Governed memory layer for agents with owners, roles, scoped API keys, and retrieval logging; managed cloud or self-hosted, free for commercial use.
 - [Mem0 Platform](https://mem0.ai/): Hosted managed memory API and platform (graph features gated behind a paid tier).
 - [Zep Cloud](https://www.getzep.com/): Managed temporal-knowledge-graph memory service for agents and assistants.
 - [Letta Cloud](https://www.letta.com/): Hosted platform for building and running stateful, self-managing memory agents.
