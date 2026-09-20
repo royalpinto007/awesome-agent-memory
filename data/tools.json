@@ -288,5 +288,12 @@
     "category": "learning",
     "desc": "Neuro-symbolic agent system combining graph-program memory with LLMs.",
     "repo": "SynaLinks/HybridAGI"
+  },
+  {
+    "name": "Screenpipe",
+    "repo": "screenpipe/screenpipe",
+    "url": "https://github.com/screenpipe/screenpipe",
+    "category": "personal",
+    "desc": "Source-available screen/audio history with local search, REST API, and MCP tools for grounding agents in the user's work (Screenpipe Commercial License)."
   }
 ]
