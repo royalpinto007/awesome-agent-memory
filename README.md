@@ -21,7 +21,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 **The one rule:** a memory system is only as good as its recall precision under real load. A store that returns the wrong three memories is worse than no memory at all.
 
 <!-- LIST:START -->
-**43 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
+**44 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
 
 ### Memory frameworks and libraries
 
@@ -86,6 +86,10 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 
 - [Agent Memory Techniques (notebooks)](https://github.com/NirDiamant/Agent_Memory_Techniques) `* 1.1k`: 30 runnable notebooks: buffers, vector stores, KGs, episodic/semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo.
 - [HybridAGI](https://github.com/SynaLinks/HybridAGI) `* 906`: Neuro-symbolic agent system combining graph-program memory with LLMs.
+
+### Personal context and computer history
+
+- [Screenpipe](https://github.com/screenpipe/screenpipe): Source-available screen/audio history with local search, REST API, and MCP tools for grounding agents in the user's work (Screenpipe Commercial License).
 
 <!-- LIST:END -->
 
