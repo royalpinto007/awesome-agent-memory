@@ -21,42 +21,42 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 **The one rule:** a memory system is only as good as its recall precision under real load. A store that returns the wrong three memories is worse than no memory at all.
 
 <!-- LIST:START -->
-**44 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
+**44 entries**, auto-refreshed weekly. Star counts updated **2026-09-21**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
 
 ### Memory frameworks and libraries
 
-- [Mem0](https://github.com/mem0ai/mem0) `* 65.3k`: Self-editing memory layer with user/session/agent scopes over a hybrid vector-plus-graph-plus-KV store; strong LoCoMo/LongMemEval scores.
-- [Graphiti](https://github.com/getzep/graphiti) `* 30.9k`: Zep's framework for building real-time, temporally-aware knowledge graphs for agent memory.
-- [Cognee](https://github.com/topoteretes/cognee) `* 30.7k`: Turns ingested data into a reasoning knowledge graph so memory improves from corrections; graph-first.
-- [Letta (formerly MemGPT)](https://github.com/letta-ai/letta) `* 24.7k`: OS-inspired agent runtime where the agent self-manages tiered memory (main context as RAM, archival as disk) via memory tools and a REST API.
-- [Memori](https://github.com/MemoriLabs/Memori) `* 16.7k`: LLM-agnostic, agent-native memory that turns agent execution into structured persistent state; enterprise/on-prem focus.
-- [txtai](https://github.com/neuml/txtai) `* 12.9k`: All-in-one embeddings database for semantic search, LLM orchestration, and memory-style retrieval.
+- [Mem0](https://github.com/mem0ai/mem0) `* 65.8k`: Self-editing memory layer with user/session/agent scopes over a hybrid vector-plus-graph-plus-KV store; strong LoCoMo/LongMemEval scores.
+- [Graphiti](https://github.com/getzep/graphiti) `* 31k`: Zep's framework for building real-time, temporally-aware knowledge graphs for agent memory.
+- [Cognee](https://github.com/topoteretes/cognee) `* 30.9k`: Turns ingested data into a reasoning knowledge graph so memory improves from corrections; graph-first.
+- [Letta (formerly MemGPT)](https://github.com/letta-ai/letta) `* 24.8k`: OS-inspired agent runtime where the agent self-manages tiered memory (main context as RAM, archival as disk) via memory tools and a REST API.
+- [Memori](https://github.com/MemoriLabs/Memori) `* 16.9k`: LLM-agnostic, agent-native memory that turns agent execution into structured persistent state; enterprise/on-prem focus.
+- [txtai](https://github.com/neuml/txtai) `* 13k`: All-in-one embeddings database for semantic search, LLM orchestration, and memory-style retrieval.
 - [Zep](https://github.com/getzep/zep) `* 4.9k`: Memory server for agents built on a temporal knowledge graph that tracks fact-validity windows; strong on temporal queries.
 - [MemoryScope](https://github.com/modelscope/MemoryScope) `* 3.5k`: ModelScope's long-term memory library for LLM chatbots with hierarchical, time-aware memory operations.
 - [Memobase](https://github.com/memodb-io/memobase) `* 2.9k`: User-profile-based long-term memory for chatbot and agent apps with time-aware user event timelines.
 - [Memary](https://github.com/kingjulio8238/Memary) `* 2.6k`: Open-source memory layer for autonomous agents that emulates how human memory evolves over time.
 - [MemoRAG](https://github.com/qhjqhj00/MemoRAG) `* 2.3k`: RAG framework built on a long-memory model as a global data interface, targeting 1M-plus token tasks.
 - [LangMem](https://github.com/langchain-ai/langmem) `* 1.7k`: LangChain's memory primitives for storing, recalling, and managing agent state within LangGraph workflows.
-- [Memoripy](https://github.com/caspianmoon/memoripy) `* 694`: Python memory layer with short/long-term storage, semantic clustering, decay/reinforcement, and graph associations.
-- [A-Mem](https://github.com/WujiangXu/A-mem-sys) `* 393`: Zettelkasten-inspired agentic memory that links structured knowledge notes for dynamic consolidation.
+- [Memoripy](https://github.com/caspianmoon/memoripy) `* 695`: Python memory layer with short/long-term storage, semantic clustering, decay/reinforcement, and graph associations.
+- [A-Mem](https://github.com/WujiangXu/A-mem-sys) `* 396`: Zettelkasten-inspired agentic memory that links structured knowledge notes for dynamic consolidation.
 - [memonto](https://github.com/shihanwan/memonto) `* 101`: Ontology-driven memory library that structures agent memory around a user-defined schema.
 
 ### Framework-native memory
 
-- [LangChain / LangGraph Memory](https://github.com/langchain-ai/langchain) `* 146.3k`: Widely used agent framework providing conversation buffers, summary memory, and state persistence/checkpointing.
-- [LlamaIndex Memory](https://github.com/run-llama/llama_index) `* 52.2k`: Data framework with built-in chat memory buffers, vector memory, and composable memory modules for agents.
-- [GraphRAG (Microsoft)](https://github.com/microsoft/graphrag) `* 36k`: Graph-based RAG that builds a knowledge graph from documents for structured, memory-like retrieval.
-- [Haystack](https://github.com/deepset-ai/haystack) `* 26.5k`: Production LLM/RAG framework with memory and retrieval components for agent pipelines.
+- [LangChain / LangGraph Memory](https://github.com/langchain-ai/langchain) `* 146.8k`: Widely used agent framework providing conversation buffers, summary memory, and state persistence/checkpointing.
+- [LlamaIndex Memory](https://github.com/run-llama/llama_index) `* 52.3k`: Data framework with built-in chat memory buffers, vector memory, and composable memory modules for agents.
+- [GraphRAG (Microsoft)](https://github.com/microsoft/graphrag) `* 36.1k`: Graph-based RAG that builds a knowledge graph from documents for structured, memory-like retrieval.
+- [Haystack](https://github.com/deepset-ai/haystack) `* 26.6k`: Production LLM/RAG framework with memory and retrieval components for agent pipelines.
 
 ### Vector and graph memory stores
 
-- [Milvus](https://github.com/milvus-io/milvus) `* 46.1k`: Scalable open-source vector database for storing and retrieving embedding-based memories.
+- [Milvus](https://github.com/milvus-io/milvus) `* 46.2k`: Scalable open-source vector database for storing and retrieving embedding-based memories.
 - [FAISS](https://github.com/facebookresearch/faiss) `* 40.9k`: Library for efficient similarity search over dense vectors, a common low-level memory index.
-- [Qdrant](https://github.com/qdrant/qdrant) `* 34.5k`: High-performance open-source vector database commonly used as the embedding store for agent long-term memory.
+- [Qdrant](https://github.com/qdrant/qdrant) `* 34.7k`: High-performance open-source vector database commonly used as the embedding store for agent long-term memory.
 - [Chroma](https://github.com/chroma-core/chroma) `* 29.3k`: Developer-friendly embedded vector database popular for prototyping agent memory.
-- [Neo4j](https://github.com/neo4j/neo4j) `* 17.2k`: Leading graph database used for knowledge-graph and relational agent memory.
+- [Neo4j](https://github.com/neo4j/neo4j) `* 17.3k`: Leading graph database used for knowledge-graph and relational agent memory.
 - [Weaviate](https://github.com/weaviate/weaviate) `* 16.8k`: Open-source vector database with hybrid search, frequently backing semantic agent memory.
-- [FalkorDB](https://github.com/FalkorDB/FalkorDB) `* 6.1k`: Low-latency graph database designed for GraphRAG and agent knowledge-graph memory.
+- [FalkorDB](https://github.com/FalkorDB/FalkorDB) `* 6.2k`: Low-latency graph database designed for GraphRAG and agent knowledge-graph memory.
 
 ### Benchmarks and evals
 
@@ -67,7 +67,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 
 ### Papers and surveys
 
-- [Awesome-Memory-for-Agents (papers)](https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents) `* 655`: Curated academic collection of papers on memory for language agents.
+- [Awesome-Memory-for-Agents (papers)](https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents) `* 661`: Curated academic collection of papers on memory for language agents.
 - [MemGPT paper](https://arxiv.org/abs/2310.08560): 'MemGPT: Towards LLMs as Operating Systems', the tiered virtual-context memory idea behind Letta.
 - [LoCoMo paper](https://arxiv.org/abs/2402.17753): 'Evaluating Very Long-Term Conversational Memory of LLM Agents', a foundational conversational-memory benchmark.
 - [LongMemEval paper](https://arxiv.org/abs/2410.10813): 'Benchmarking Chat Assistants on Long-Term Interactive Memory'.
@@ -85,11 +85,11 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 ### Learning resources
 
 - [Agent Memory Techniques (notebooks)](https://github.com/NirDiamant/Agent_Memory_Techniques) `* 1.1k`: 30 runnable notebooks: buffers, vector stores, KGs, episodic/semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo.
-- [HybridAGI](https://github.com/SynaLinks/HybridAGI) `* 906`: Neuro-symbolic agent system combining graph-program memory with LLMs.
+- [HybridAGI](https://github.com/SynaLinks/HybridAGI) `* 907`: Neuro-symbolic agent system combining graph-program memory with LLMs.
 
 ### Personal context and computer history
 
-- [Screenpipe](https://github.com/screenpipe/screenpipe): Source-available screen/audio history with local search, REST API, and MCP tools for grounding agents in the user's work (Screenpipe Commercial License).
+- [Screenpipe](https://github.com/screenpipe/screenpipe) `* 21.7k`: Source-available screen/audio history with local search, REST API, and MCP tools for grounding agents in the user's work (Screenpipe Commercial License).
 
 <!-- LIST:END -->
 
