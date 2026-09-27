@@ -21,7 +21,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 **The one rule:** a memory system is only as good as its recall precision under real load. A store that returns the wrong three memories is worse than no memory at all.
 
 <!-- LIST:START -->
-**44 entries**, auto-refreshed weekly. Star counts updated **2026-09-21**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
+**45 entries**, auto-refreshed weekly. Star counts updated **2026-09-21**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
 
 ### Memory frameworks and libraries
 
@@ -40,6 +40,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 - [Memoripy](https://github.com/caspianmoon/memoripy) `* 695`: Python memory layer with short/long-term storage, semantic clustering, decay/reinforcement, and graph associations.
 - [A-Mem](https://github.com/WujiangXu/A-mem-sys) `* 396`: Zettelkasten-inspired agentic memory that links structured knowledge notes for dynamic consolidation.
 - [memonto](https://github.com/shihanwan/memonto) `* 101`: Ontology-driven memory library that structures agent memory around a user-defined schema.
+- [Oh](https://github.com/hraness/oh) `* 4`: Memory framework that stores each fact with the sources it rests on, keeps every change in an append-only history you can replay, and returns the evidence behind each answer; TypeScript SDK, CLI, and Agent Skill over one local SQLite file.
 
 ### Framework-native memory
 

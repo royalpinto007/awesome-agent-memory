@@ -105,6 +105,13 @@
     "repo": "neuml/txtai"
   },
   {
+    "name": "Oh",
+    "url": "https://github.com/hraness/oh",
+    "category": "frameworks",
+    "desc": "Memory framework that stores each fact with the sources it rests on, keeps every change in an append-only history you can replay, and returns the evidence behind each answer; TypeScript SDK, CLI, and Agent Skill over one local SQLite file.",
+    "repo": "hraness/oh"
+  },
+  {
     "name": "LlamaIndex Memory",
     "url": "https://github.com/run-llama/llama_index",
     "category": "native",
