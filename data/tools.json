@@ -189,6 +189,13 @@
     "repo": "FalkorDB/FalkorDB"
   },
   {
+    "name": "MoobFS",
+    "repo": "studiomoob/llmoobfs",
+    "url": "https://github.com/studiomoob/llmoobfs",
+    "category": "stores",
+    "desc": "Experimental, AI-assisted Linux filesystem for agent-memory files, with typed attributes and permission-scoped queries; disposable-VM evaluation, without vector search."
+  },
+  {
     "name": "LoCoMo",
     "url": "https://github.com/snap-research/locomo",
     "category": "benchmarks",
