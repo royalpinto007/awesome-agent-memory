@@ -7,7 +7,7 @@
   "cats": {
     "frameworks": "Memory frameworks and libraries",
     "native": "Framework-native memory",
-    "stores": "Vector and graph memory stores",
+    "stores": "Memory stores and indexes",
     "benchmarks": "Benchmarks and evals",
     "papers": "Papers and surveys",
     "managed": "Managed memory services",
