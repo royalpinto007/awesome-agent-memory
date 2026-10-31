@@ -21,7 +21,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 **The one rule:** a memory system is only as good as its recall precision under real load. A store that returns the wrong three memories is worse than no memory at all.
 
 <!-- LIST:START -->
-**45 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
+**46 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
 
 ### Memory frameworks and libraries
 
@@ -48,6 +48,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 - [LlamaIndex Memory](https://github.com/run-llama/llama_index) `* 52.3k`: Data framework with built-in chat memory buffers, vector memory, and composable memory modules for agents.
 - [GraphRAG (Microsoft)](https://github.com/microsoft/graphrag) `* 36.1k`: Graph-based RAG that builds a knowledge graph from documents for structured, memory-like retrieval.
 - [Haystack](https://github.com/deepset-ai/haystack) `* 26.6k`: Production LLM/RAG framework with memory and retrieval components for agent pipelines.
+- [SoloPup Memory](https://github.com/OakcoderX/solopup-memory): MIT public-beta text-memory plugin for DeepSeek Harness with original-source references, project scopes, correction history and lexical retrieval.
 
 ### Vector and graph memory stores
 
