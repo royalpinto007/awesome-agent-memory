@@ -21,7 +21,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 **The one rule:** a memory system is only as good as its recall precision under real load. A store that returns the wrong three memories is worse than no memory at all.
 
 <!-- LIST:START -->
-**45 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
+**46 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-memory.agentpostmortem.com](https://agent-memory.agentpostmortem.com)**.
 
 ### Memory frameworks and libraries
 
@@ -58,6 +58,7 @@ An agent with no memory starts every conversation from zero. Memory is what lets
 - [Neo4j](https://github.com/neo4j/neo4j) `* 17.3k`: Leading graph database used for knowledge-graph and relational agent memory.
 - [Weaviate](https://github.com/weaviate/weaviate) `* 16.9k`: Open-source vector database with hybrid search, frequently backing semantic agent memory.
 - [FalkorDB](https://github.com/FalkorDB/FalkorDB) `* 6.3k`: Low-latency graph database designed for GraphRAG and agent knowledge-graph memory.
+- [HydraDB](https://hydradb.com/): Graph database for AI agents that stores agent memory and company knowledge, with hybrid search across both in a single call.
 
 ### Benchmarks and evals
 

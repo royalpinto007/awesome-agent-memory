@@ -189,6 +189,13 @@
     "repo": "FalkorDB/FalkorDB"
   },
   {
+    "name": "HydraDB",
+    "url": "https://hydradb.com/",
+    "category": "stores",
+    "desc": "Graph database for AI agents that stores agent memory and company knowledge, with hybrid search across both in a single call.",
+    "repo": "hydra-db/hydradb"
+  },
+  {
     "name": "LoCoMo",
     "url": "https://github.com/snap-research/locomo",
     "category": "benchmarks",
