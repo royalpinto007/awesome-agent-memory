@@ -140,6 +140,13 @@
     "repo": "microsoft/graphrag"
   },
   {
+    "name": "agent-qa",
+    "url": "https://vostride.com",
+    "category": "native",
+    "desc": "Web/mobile QA agent with persistent memidex app memory for verified facts, cautions and procedures, plus evidence-gated self-improvement (FSL-1.1-ALv2).",
+    "repo": "vostride/agent-qa"
+  },
+  {
     "name": "Qdrant",
     "url": "https://github.com/qdrant/qdrant",
     "category": "stores",
